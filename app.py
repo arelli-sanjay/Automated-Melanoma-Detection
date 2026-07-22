@@ -22,7 +22,7 @@ app = Flask(__name__)
 
 # Load your trained model globally
 MODEL_PATH = 'model/skin.h5'
-model = load_model(MODEL_PATH)
+MODEL_PATH = os.path.join("model", "skin.h5")
 
 @app.route("/")
 @app.route("/first")
