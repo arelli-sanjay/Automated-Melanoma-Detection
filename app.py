@@ -48,6 +48,7 @@ def index():
 @app.route("/upload", methods=['POST'])
 def upload_file():
     print("Hello - Upload endpoint reached")
+    print(request.files)
     out_pred = None
     out_prob = None
     processed_file = None
@@ -93,6 +94,7 @@ def predict(img):
         
         # Make prediction using the global model
         pred = model.predict(img_array)
+        print(pred)
         
         # Get the prediction class
         pred_class = np.argmax(pred, axis=1)[0]
