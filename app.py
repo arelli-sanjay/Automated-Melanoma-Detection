@@ -21,7 +21,7 @@ from gevent.pywsgi import WSGIServer
 app = Flask(__name__)
 
 # Load your trained model globally
-MODEL_PATH = 'skin.h5'
+MODEL_PATH = 'model/skin.h5'
 model = load_model(MODEL_PATH)
 
 @app.route("/")
