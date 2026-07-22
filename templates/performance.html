@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>performance</title>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+     <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+     <link rel="stylesheet" href="../static/css/aos.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="../static/css/tooplate-gymso-styles.css">
+<!--
+Tooplate 2119 Gymso Fitness
+https://www.tooplate.com/view/2119-gymso-fitness
+-->
+</head>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">Melanoma Detection</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                     <li class="nav-item">
+                        <a href="{{ url_for('first')}}" class="nav-link smoothScroll">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="{{ url_for('login')}}" class="nav-link smoothScroll">Login</a>
+                    </li>
+					<li class="nav-item">
+                        <a href="{{ url_for('index')}}" class="nav-link smoothScroll">Preview</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="{{ url_for('performance')}}" class="nav-link smoothScroll">performance_analysis</a>
+                    </li>
+					  <li class="nav-item">
+                        <a href="{{ url_for('chart')}}" class="nav-link smoothScroll">Chart</a>
+                    </li>
+                </ul>
+
+                
+            </div>
+
+        </div>
+    </nav>
+
+
+     <!-- HERO -->
+     <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
+
+            <div class="bg-overlay"></div>
+
+               <div class="container">
+                    <div class="row">
+
+                         <div class="col-lg-8 col-md-10 mx-auto col-12">
+                              <div class="hero-text mt-5 text-center">
+
+                                     
+                                    <h1 class="text-white" data-aos="fade-up" data-aos-delay="500">Melanoma Detection Using Cnn</h1>
+
+                                   
+                                   
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+     </section>
+
+
+      
+     <!-- CONTACT -->
+     <section class="contact section" id="contact">
+          <div class="container">
+               <div class="row">
+
+                     
+                       <div class="col-md-30 col-lg-70" style="margin-left:300px">  
+            <h1 class="mb-2 bread">PERFORMANCE ANALYSIS</</h1>
+             
+          </div>
+        </div>
+      </div>
+    </section>
+		 <div class="col-md-30 col-lg-70" style="margin-left:300px">  
+		<section class="ftco-section ftco-no-pt ftco-no-pb">
+			<div class="container-fluid px-0">
+				<div class="row d-flex no-gutters">
+          <div class="col-md-15  ftco-animate makereservation p-4 p-md-5 pt-5">
+          	 <div class="py-md-5">
+	          	<div class="heading-section ftco-animate mb-5">
+		           
+		           <center> <h2 class="mb-4">PERFORMANCE ANALYSIS</h2></center>
+				   
+				   <header>
+							 
+								 <div class="section-title">
+           
+          <center>
+		  
+	  <body>
+ </br></br>
+<div><span style="margin-left:50px;color:black"><font size="12">Accuracy:  </font>
+<span style="margin-left:80px;color:black"><font size="12">0.841</font>
+</div> 
+</br>
+</br>
+<div><span style="margin-left:50px;color:black"><font size="12">Precision:</font>
+<span style="margin-left:80px;color:black"><font size="12">0.776  </font>
+</div>
+</br>
+</br>    
+ <div><span style="margin-left:50px;color:black"><font size="12">Recall:   </font>
+<span style="margin-left:140px;color:black"><font size="12">0.841</font>
+</div> 
+</br>
+</br>
+<div><span style="margin-left:50px;color:black"><font size="12">F-Measure:   </font>
+<span style="margin-left:40px;color:black"><font size="12">0.841</font>
+</div> 
+</br>
+</br>  
+ </br>
+</br>
+</br>
+</br>
+</br>
+</center>
+<div class="col-lg-8 mx-auto">
+          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            
+                       
+                      <div><span style="margin-left:40px;color:red"><font size="12">Confusion Matrix</font></div>
+					  </br>
+					  </br>
+					  
+				<center>	    <div><img style="margin-left:-150px;width:800px;height:500px;" src="../static/download.png"</div></center>
+                               
+                         
+						       
+        </div>
+
+
+ 
+</body>
+							</header>
+							 
+
+                         
+               </div>
+          </div>
+     </section>
+
+</div>
+     <!-- FOOTER -->
+     <footer class="site-footer">
+          <div class="container">
+               <div class="row">
+
+                    <div class="ml-auto col-lg-4 col-md-5">
+                        
+                    </div>
+
+                    <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+                         
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="membershipForm" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+
+        <div class="modal-content">
+          <div class="modal-header">
+
+             
+          </div>
+
+          <div class="modal-body">
+            <form class="membership-form webform" role="form">
+                <input type="text" class="form-control" name="cf-name" placeholder="John Doe">
+
+                <input type="email" class="form-control" name="cf-email" placeholder="Johndoe@gmail.com">
+
+                <input type="tel" class="form-control" name="cf-phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+                
+            </form>
+          </div>
+
+          <div class="modal-footer"></div>
+
+        </div>
+      </div>
+    </div>
+
+     <!-- SCRIPTS -->
+    <script src="../static/js/jquery.min.js"></script>
+     <script src="../static/js/bootstrap.min.js"></script>
+     <script src="../static/js/aos.js"></script>
+     <script src="../static/js/smoothscroll.js"></script>
+     <script src="../static/js/custom.js"></script>
+
+</body>
+</html>
