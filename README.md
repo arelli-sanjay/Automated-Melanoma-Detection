@@ -150,6 +150,10 @@ This project has been published in the **International Journal of Advanced Resea
 - I got experience, with computer vision and healthcare Artificial Intelligence.
 - I understood better how to use Artificial Intelligence to solve problems.
 
+## Disclaimer
+
+This project is developed for educational and research purposes only and should not be used as a substitute for professional medical advice or diagnosis.
+
 ## Author
 
 **ARELLI SANJAY**
